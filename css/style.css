@@ -1,6 +1,12 @@
 .chessboard {
   display: flex;
+  height: 100vh;
+    width: 100vw;
+  }
+  
+  .columns {
   flex-direction: column;
+
 }
 
 .squares {
@@ -8,6 +14,7 @@
   height: 100px;
   background-color: white;
   border: 3px solid grey;
+
 }
 
 .column-odd div:nth-child(even) {
