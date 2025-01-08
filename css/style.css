@@ -1,13 +1,33 @@
-.container {
+.chessboard {
   display: flex;
+  /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .columns {
   flex-direction: column;
+  /* width: 100px;
+                              height: 100px; */
+    /* background-color: gold; */
+    /* border: 3px solid grey; */
+    /* flex-grow: 1; */
 }
 
-.box {
+.squares {
   width: 100px;
   height: 100px;
-  background-color: gold;
+  background-color: white;
   border: 3px solid grey;
+/* flex-grow: 1; */
 }
 
+.column-odd div:nth-child(even) {
+  background-color: black;
+}
 
+.column-even div:nth-child(odd) {
+  background-color: black;
+}
