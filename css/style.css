@@ -1,0 +1,52 @@
+.container {
+  left: 10%;
+  position: relative;
+  /* text-align: right; */
+  /* height: 100px;
+  width: 200px; */
+}
+
+.box1 {
+  display: inline-block;
+  background-color: blue;
+  padding-top: 5%;
+  width: 200px;
+  rotate: 45deg;
+}
+
+.box2 {
+  display: inline;
+  background-color: red;
+  margin: 100px;
+  padding: 50px;
+}
+
+.box3 {
+  display: inline-block;
+  background-color: greenyellow;
+  padding-top: 30%;
+  width: 200px;
+  text-align: center;
+  border-radius: 90%;
+  rotate: 225deg;
+
+}
+
+.box4 {
+  text-align: center;
+  display: block inline;
+  background-color: yellow;
+  border-radius: 30px;
+  width: 400px;
+  height: 100px;
+  z-index: 1;
+}
+
+p {
+  display: init;
+  background-color: rgb(148, 130, 238);
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+
+}
